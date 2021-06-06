@@ -14,6 +14,7 @@ body {
 .card{
   padding: 1rem;
   margin: 1rem;
+  width: 100px;
 }
 
 .card-body{
@@ -22,4 +23,6 @@ body {
 
 .card img{
   height: 200px;
+  object-fit: cover;
 }
+
