@@ -9,20 +9,13 @@ body {
 }
 #all_cards{
   display: flex;
+  flex-wrap: wrap;
 }
 .card{
   padding: 1rem;
   margin: 1rem;
 }
-@media (max-width: 600px) {
-  #all_cards {
-    flex-direction: column;
-  }
-  .card{
-    margin: auto;
-  }
 
-}
 .card-body{
   text-align: center;
 }
