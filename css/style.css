@@ -7,3 +7,19 @@ body {
   height: 100%;
   max-height: 665px;
 }
+#all_cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card img{
+  height: 200px;
+}
