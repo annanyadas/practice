@@ -10,6 +10,7 @@ body {
 #all_cards{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .card{
   padding: 1rem;
