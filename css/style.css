@@ -27,3 +27,15 @@ body {
   object-fit: cover;
 }
 
+.logo {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.nav-text {
+  font-size: larger;
+}
+
+.nav-item-padding {
+  margin-right: 20px;
+}
