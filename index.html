@@ -12,19 +12,6 @@
     <title>Document</title>
 </head>
 <body>
-  <script>
-   $(document).ready(function () {
-    $('.nav ul li').click(function(e) {
-
-        $('.nav ul li.active').removeClass('active');
-
-        var $parent = $(this).parent();
-        $parent.addClass('active');
-        e.preventDefault();
-    });
-});
-
-</script>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a href="#"> <img src="./asset/logo.png"  alt="Logo" height="100px" width="100px" class="logo"/> </a>
